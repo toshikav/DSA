@@ -3,6 +3,7 @@ class Solution {
     public int countGoodNumbers(long n) {
         long evenPositions = (n+1) / 2;
         long oddPositions = n/2;
+        long MOD = 1000000007;
 
         return (int)((expo(5, evenPositions) * expo(4, oddPositions)) % MOD);
     }
