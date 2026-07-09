@@ -14,9 +14,8 @@ class Solution {
         boolean ans[] = new boolean[queries.length];
 
         for (int i=0; i<queries.length; i++){
-            int u = queries[i][0];
-            int v = queries[i][1];
-            ans[i] = comp[u] == comp[v];
+            
+            ans[i] = comp[queries[i][0]] == comp[queries[i][1]];
         }
         return ans;
     }
