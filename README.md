@@ -44,11 +44,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/toshikav/DSA/tree/master/0039-combination-sum) |
+| [0078-subsets](https://github.com/toshikav/DSA/tree/master/0078-subsets) |
 | [1331-rank-transform-of-an-array](https://github.com/toshikav/DSA/tree/master/1331-rank-transform-of-an-array) |
 ## Backtracking
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/toshikav/DSA/tree/master/0039-combination-sum) |
+| [0078-subsets](https://github.com/toshikav/DSA/tree/master/0078-subsets) |
 ## Hash Table
 |  |
 | ------- |
@@ -57,4 +59,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1331-rank-transform-of-an-array](https://github.com/toshikav/DSA/tree/master/1331-rank-transform-of-an-array) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/toshikav/DSA/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
