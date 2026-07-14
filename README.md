@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/toshikav/DSA/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/toshikav/DSA/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/toshikav/DSA/tree/master/0047-permutations-ii) |
+| [0056-merge-intervals](https://github.com/toshikav/DSA/tree/master/0056-merge-intervals) |
 | [0078-subsets](https://github.com/toshikav/DSA/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/toshikav/DSA/tree/master/0090-subsets-ii) |
 | [1331-rank-transform-of-an-array](https://github.com/toshikav/DSA/tree/master/1331-rank-transform-of-an-array) |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0047-permutations-ii](https://github.com/toshikav/DSA/tree/master/0047-permutations-ii) |
+| [0056-merge-intervals](https://github.com/toshikav/DSA/tree/master/0056-merge-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/toshikav/DSA/tree/master/1331-rank-transform-of-an-array) |
 ## Bit Manipulation
 |  |
