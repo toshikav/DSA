@@ -1,25 +1,19 @@
 class Solution {
     public long gcdSum(int[] nums) {
         long sum = 0;
-        int prefixGCD[] = new int[nums.length];
         int max = 0;
 
         for (int i=0; i<nums.length; i++){
             max = Math.max(max, nums[i]);
-            prefixGCD[i] = GCD(nums[i], max);
+            nums[i] = GCD(nums[i], max);
 
 
         }
-        Arrays.sort(prefixGCD);
-        int start = 0;
-        int end = prefixGCD.length-1;
-
-
-        while (start < end){
-            sum += GCD(prefixGCD[start], prefixGCD[end]);
-            start++;
-            end--;
-        }
+        Arrays.sort(nums);
+        
+        for (int i=0, j=nums.length-1; i<j; i++, j--){
+            sum += GCD(nums[i], nums[j]);
+        } 
         return sum;
     }
 
