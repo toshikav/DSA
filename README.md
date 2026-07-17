@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/toshikav/DSA/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/toshikav/DSA/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/toshikav/DSA/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/toshikav/DSA/tree/master/0131-palindrome-partitioning) |
 ## Hash Table
 |  |
 | ------- |
@@ -99,4 +100,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/toshikav/DSA/tree/master/3867-sum-of-gcd-of-formed-pairs) |
+## String
+|  |
+| ------- |
+| [0131-palindrome-partitioning](https://github.com/toshikav/DSA/tree/master/0131-palindrome-partitioning) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0131-palindrome-partitioning](https://github.com/toshikav/DSA/tree/master/0131-palindrome-partitioning) |
 <!---LeetCode Topics End-->
