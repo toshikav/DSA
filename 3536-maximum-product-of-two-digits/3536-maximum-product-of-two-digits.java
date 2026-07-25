@@ -7,9 +7,7 @@ class Solution {
                 int digi1 = str.charAt(i) - '0';
                 int digi2 = str.charAt(j) - '0';
 
-                int ans = digi1 * digi2;
-
-                max = Math.max(max, ans);
+                max = Math.max(max, digi1 * digi2);
             }
         }
         return max;
