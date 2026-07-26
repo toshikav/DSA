@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0057-insert-interval](https://github.com/toshikav/DSA/tree/master/0057-insert-interval) |
 | [0078-subsets](https://github.com/toshikav/DSA/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/toshikav/DSA/tree/master/0090-subsets-ii) |
+| [0628-maximum-product-of-three-numbers](https://github.com/toshikav/DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [1260-shift-2d-grid](https://github.com/toshikav/DSA/tree/master/1260-shift-2d-grid) |
 | [1331-rank-transform-of-an-array](https://github.com/toshikav/DSA/tree/master/1331-rank-transform-of-an-array) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/toshikav/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -87,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0047-permutations-ii](https://github.com/toshikav/DSA/tree/master/0047-permutations-ii) |
 | [0056-merge-intervals](https://github.com/toshikav/DSA/tree/master/0056-merge-intervals) |
+| [0628-maximum-product-of-three-numbers](https://github.com/toshikav/DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [1331-rank-transform-of-an-array](https://github.com/toshikav/DSA/tree/master/1331-rank-transform-of-an-array) |
 | [3536-maximum-product-of-two-digits](https://github.com/toshikav/DSA/tree/master/3536-maximum-product-of-two-digits) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/toshikav/DSA/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -103,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0628-maximum-product-of-three-numbers](https://github.com/toshikav/DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/toshikav/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/toshikav/DSA/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3536-maximum-product-of-two-digits](https://github.com/toshikav/DSA/tree/master/3536-maximum-product-of-two-digits) |
