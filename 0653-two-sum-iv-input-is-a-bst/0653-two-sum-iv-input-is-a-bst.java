@@ -14,9 +14,12 @@
  * }
  */
 class Solution {
-    HashSet<Integer> temp = new HashSet<>();
+    
     public boolean findTarget(TreeNode root, int k) {
-        
+        HashSet<Integer> temp = new HashSet<>();
+        return dfs(root, k, temp); 
+    }
+    public boolean dfs(TreeNode root, int k, HashSet<Integer> temp){
         if (root == null){
             return false;
         }
@@ -27,8 +30,6 @@ class Solution {
 
         temp.add(root.val);
 
-        return findTarget(root.left, k) || findTarget(root.right, k);
-
-        
+        return dfs(root.left, k, temp) || dfs(root.right, k, temp);
     }
 }
