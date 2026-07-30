@@ -1,7 +1,7 @@
 class Solution {
     public int minimumPushes(String word) {
-        int blocks = word.length() / 8;
+        int n = word.length();
 
-        return (blocks * (blocks + 1) * 4) + (word.length() % 8) * (blocks + 1);
+        return (n / 8 * (n / 8 + 1) * 4) + (n % 8) * (n / 8 + 1);
     }
 }
