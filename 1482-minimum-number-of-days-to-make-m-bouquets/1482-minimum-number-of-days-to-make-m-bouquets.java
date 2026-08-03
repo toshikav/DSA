@@ -3,51 +3,41 @@ class Solution {
         if (bloomDay.length < (long) m * k){
             return -1;
         }
-        int low = Integer.MAX_VALUE;
-        int high = Integer.MIN_VALUE;
-
-        for (int day : bloomDay){
-            low = Math.min(low, day);
-            high = Math.max(high, day);
-        }
-        int ans = high;
+        int low = 1;
+        int high = (int) 1e9;
 
         while (low <= high){
             int mid = low + (high - low) / 2;
 
             if (canMake(bloomDay, m, k, mid)){
-                ans = mid;
-                high = mid - 1;
+                high = mid-1;
 
             }else{
                 low = mid + 1;
             }
         }
-        return ans;
+        return low;
     }
 
     public boolean canMake(int bloomDay[], int m, int k, int day){
-        int flowers = 0;
-        int bouquets = 0;
+       int total = 0;
 
-        for (int bloom : bloomDay){
-            if (bloom <= day){
-                flowers++;
+        for (int i=0; i<bloomDay.length; i++){
+            int count = 0;
+            while (i < bloomDay.length && count < k && bloomDay[i] <= day){
+                count++;
+                i++;
+            }
 
-                if (flowers == k){
-                    bouquets++;
-                    flowers = 0;
+            if (count == k){
+                total++;
+                i--;
 
-                    if (bouquets >= m){
-                        return true;
-                    }
+                if (total >= m){
+                    return true;
                 }
             }
-            else{
-                flowers = 0;
-            }
         }
-
         return false;
     }
 }
