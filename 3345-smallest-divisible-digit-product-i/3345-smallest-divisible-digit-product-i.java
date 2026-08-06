@@ -1,13 +1,9 @@
 class Solution {
     public int smallestNumber(int n, int t) {
-        while (true){
-            int prod = digitProd(n);
-
-            if (prod % t == 0){
-                return n;
-            }
+        while (digitProd(n) % t != 0){
             n++;
         }
+        return n;
     }
     private int digitProd(int num){
         int prod = 1;
