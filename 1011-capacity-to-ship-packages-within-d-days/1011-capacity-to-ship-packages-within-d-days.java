@@ -7,33 +7,27 @@ class Solution {
             left = Math.max(left, weight);
             right += weight;
         }
-        int ans = right;
 
-        while (left <= right){
+        while (left < right){
             int mid = left + (right - left) / 2;
-
-            if (canShip(weights, days, mid)){
-                ans = mid;
-                right = mid - 1;
+            int daysNeed = 1;
+            int curr = 0;
+            
+            for (int weight : weights){
+                if (curr + weight > mid){
+                    daysNeed++;
+                    curr = weight;
+                }else{
+                    curr += weight;
+                }      
+            }
+            if (daysNeed > days){
+                left = mid + 1;
 
             }else{
-                left = mid+1;
+                right = mid;
             }
         }
-        return ans;
-    }
-    private boolean canShip(int weights[], int days, int capacity){
-        int daysNeed = 1;
-        int curr = 0;
-
-        for (int weight : weights){
-            if (curr + weight <= capacity){
-                curr += weight;
-            }else{
-                daysNeed++;
-                curr = weight;
-            }
-        }
-        return daysNeed <= days;
+        return left;
     }
 }
