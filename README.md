@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/toshikav/DSA/tree/master/0042-trapping-rain-water) |
 | [0145-binary-tree-postorder-traversal](https://github.com/toshikav/DSA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0173-binary-search-tree-iterator](https://github.com/toshikav/DSA/tree/master/0173-binary-search-tree-iterator) |
 | [0316-remove-duplicate-letters](https://github.com/toshikav/DSA/tree/master/0316-remove-duplicate-letters) |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0039-combination-sum](https://github.com/toshikav/DSA/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/toshikav/DSA/tree/master/0040-combination-sum-ii) |
+| [0042-trapping-rain-water](https://github.com/toshikav/DSA/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/toshikav/DSA/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/toshikav/DSA/tree/master/0047-permutations-ii) |
 | [0056-merge-intervals](https://github.com/toshikav/DSA/tree/master/0056-merge-intervals) |
@@ -164,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/toshikav/DSA/tree/master/0042-trapping-rain-water) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/toshikav/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/toshikav/DSA/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/toshikav/DSA/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -187,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/toshikav/DSA/tree/master/0042-trapping-rain-water) |
 | [0131-palindrome-partitioning](https://github.com/toshikav/DSA/tree/master/0131-palindrome-partitioning) |
 | [0877-stone-game](https://github.com/toshikav/DSA/tree/master/0877-stone-game) |
 | [2289-steps-to-make-array-non-decreasing](https://github.com/toshikav/DSA/tree/master/2289-steps-to-make-array-non-decreasing) |
@@ -202,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/toshikav/DSA/tree/master/0042-trapping-rain-water) |
 | [0316-remove-duplicate-letters](https://github.com/toshikav/DSA/tree/master/0316-remove-duplicate-letters) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/toshikav/DSA/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/toshikav/DSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
