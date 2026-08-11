@@ -1,10 +1,9 @@
 class Solution {
     public int missingInteger(int[] nums) {
-        Set<Integer> seen = new HashSet<>(nums.length);
+        boolean seen[] = new boolean[1276];
         
-
         for (int num : nums){
-           seen.add(num);
+           seen[num] = true;
         }
         int sum = nums[0];
 
@@ -14,10 +13,9 @@ class Solution {
 
             }else{
                 break;
-            }
-            
+            }        
         }
-        while (seen.contains(sum)){
+        while (seen[sum]){
             sum++;
         }
         return sum;
