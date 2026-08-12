@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0057-insert-interval](https://github.com/toshikav/DSA/tree/master/0057-insert-interval) |
 | [0078-subsets](https://github.com/toshikav/DSA/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/toshikav/DSA/tree/master/0090-subsets-ii) |
+| [0410-split-array-largest-sum](https://github.com/toshikav/DSA/tree/master/0410-split-array-largest-sum) |
 | [0628-maximum-product-of-three-numbers](https://github.com/toshikav/DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [0877-stone-game](https://github.com/toshikav/DSA/tree/master/0877-stone-game) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/toshikav/DSA/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
@@ -197,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/toshikav/DSA/tree/master/0042-trapping-rain-water) |
 | [0131-palindrome-partitioning](https://github.com/toshikav/DSA/tree/master/0131-palindrome-partitioning) |
+| [0410-split-array-largest-sum](https://github.com/toshikav/DSA/tree/master/0410-split-array-largest-sum) |
 | [0877-stone-game](https://github.com/toshikav/DSA/tree/master/0877-stone-game) |
 | [2289-steps-to-make-array-non-decreasing](https://github.com/toshikav/DSA/tree/master/2289-steps-to-make-array-non-decreasing) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/toshikav/DSA/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
@@ -204,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0316-remove-duplicate-letters](https://github.com/toshikav/DSA/tree/master/0316-remove-duplicate-letters) |
+| [0410-split-array-largest-sum](https://github.com/toshikav/DSA/tree/master/0410-split-array-largest-sum) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/toshikav/DSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/toshikav/DSA/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/toshikav/DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
@@ -228,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0173-binary-search-tree-iterator](https://github.com/toshikav/DSA/tree/master/0173-binary-search-tree-iterator) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/toshikav/DSA/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/toshikav/DSA/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0410-split-array-largest-sum](https://github.com/toshikav/DSA/tree/master/0410-split-array-largest-sum) |
 | [0450-delete-node-in-a-bst](https://github.com/toshikav/DSA/tree/master/0450-delete-node-in-a-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/toshikav/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/toshikav/DSA/tree/master/0701-insert-into-a-binary-search-tree) |
@@ -277,4 +281,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/toshikav/DSA/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
+## Prefix Sum
+|  |
+| ------- |
+| [0410-split-array-largest-sum](https://github.com/toshikav/DSA/tree/master/0410-split-array-largest-sum) |
 <!---LeetCode Topics End-->
