@@ -1,6 +1,5 @@
 class Solution {
     public boolean stoneGameIX(int[] stones) {
-        int sum = 0;
         int c0 = 0;
         int c1 = 0;
         int c2 = 0;
