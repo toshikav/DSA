@@ -4,14 +4,19 @@ class Solution {
         boolean notZero = false;
 
         for (int num : nums){
-            notZero |= num > 0;
             ans ^= num;
+            if (num != 0){
+                notZero = true;
+            }
         }
 
         if (!notZero){
             return 0;
         }
+        if (ans != 0){
+            return nums.length;
+        }
         
-        return ans == 0 ? nums.length - 1 : nums.length;
+        return nums.length - 1;
     }
 }
