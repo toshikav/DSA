@@ -21,13 +21,11 @@ class Solution {
         int idx = 0;
 
         for(int arr : arr1){
-            res[idx] = arr;
-            idx++;
+            res[idx++] = arr;
         }
 
         for (int arr : arr2){
-            res[idx] = arr;
-            idx++;
+            res[idx++] = arr;
         }
         return res;
     }
