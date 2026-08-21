@@ -12,8 +12,9 @@ class Solution {
     }
     public void dfs(int room, List<List<Integer>> rooms, boolean visited[]){
         visited[room] = true;
+        List<Integer> list = rooms.get(room);
 
-        for (int key : rooms.get(room)){
+        for (int key : list){
             if (!visited[key]){
                 dfs(key, rooms, visited);
             }
