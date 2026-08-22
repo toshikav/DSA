@@ -11,9 +11,7 @@ class Solution {
             prod *= digit;
             n /= 10;
         }
-        if (original % (sum +  prod) == 0){
-            return true;
-        }
-        return false;
+        
+        return original % (sum +  prod) == 0;
     }
 }
