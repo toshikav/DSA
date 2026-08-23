@@ -2,7 +2,6 @@ class Solution {
     public boolean sumGame(String num) {
         int leftSum = 0;
         int rightSum = 0;
-
         int leftQ = 0;
         int rightQ = 0;
 
@@ -25,12 +24,11 @@ class Solution {
                 rightSum += num.charAt(i) - '0';
             }
         }
-
+        // if odd ?
         if ((leftQ + rightQ) % 2 != 0){
             return true;
         }
-
+        // if even ?
         return 2 * (leftSum - rightSum) != 9 * (rightQ - leftQ);
-
     }
 }
