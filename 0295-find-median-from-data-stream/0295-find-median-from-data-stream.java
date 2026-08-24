@@ -1,6 +1,6 @@
 class MedianFinder {
-    PriorityQueue<Integer> max = new PriorityQueue<>(Collections.reverseOrder());
-    PriorityQueue<Integer> min = new PriorityQueue<>();
+    private PriorityQueue<Integer> max = new PriorityQueue<>(Collections.reverseOrder());
+    private PriorityQueue<Integer> min = new PriorityQueue<>();
     private boolean even = true;
     
     public void addNum(int num) {
