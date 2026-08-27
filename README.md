@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/toshikav/DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/toshikav/DSA/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1566-detect-pattern-of-length-m-repeated-k-or-more-times](https://github.com/toshikav/DSA/tree/master/1566-detect-pattern-of-length-m-repeated-k-or-more-times) |
+| [1652-defuse-the-bomb](https://github.com/toshikav/DSA/tree/master/1652-defuse-the-bomb) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/toshikav/DSA/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/toshikav/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/toshikav/DSA/tree/master/2029-stone-game-ix) |
@@ -326,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [1652-defuse-the-bomb](https://github.com/toshikav/DSA/tree/master/1652-defuse-the-bomb) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/toshikav/DSA/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/toshikav/DSA/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/toshikav/DSA/tree/master/3090-maximum-length-substring-with-two-occurrences) |
