@@ -11,15 +11,12 @@ class Solution {
                 max = i;
             }
         }
-        if (min > max){
-            int temp = min;
-            min = max; 
-            max = temp;
-        }
+        int left = Math.min(min, max);
+        int right = Math.max(min, max);
 
-        int o1 = max + 1;
-        int o2 = nums.length - min;
-        int o3 = (min + 1) + (nums.length - max);
+        int o1 = right + 1;
+        int o2 = nums.length - left;
+        int o3 = (left + 1) + (nums.length - right);
 
         return Math.min(o1, (Math.min(o2, o3)));
     }
