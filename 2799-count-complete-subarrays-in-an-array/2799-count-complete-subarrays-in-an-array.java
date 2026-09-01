@@ -15,7 +15,8 @@ class Solution {
                 st.add(nums[j]);
 
                 if (st.size() == k){
-                    ans++;
+                    ans += (nums.length - j);
+                    break;
                 }
             }
         }
