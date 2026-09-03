@@ -117,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/toshikav/DSA/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/toshikav/DSA/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/toshikav/DSA/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
+| [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/toshikav/DSA/tree/master/3318-find-x-sum-of-all-k-long-subarrays-i) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/toshikav/DSA/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/toshikav/DSA/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/toshikav/DSA/tree/master/3568-minimum-moves-to-clean-the-classroom) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/toshikav/DSA/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/toshikav/DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/toshikav/DSA/tree/master/3090-maximum-length-substring-with-two-occurrences) |
+| [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/toshikav/DSA/tree/master/3318-find-x-sum-of-all-k-long-subarrays-i) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/toshikav/DSA/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/toshikav/DSA/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/toshikav/DSA/tree/master/3718-smallest-missing-multiple-of-k) |
@@ -300,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/toshikav/DSA/tree/master/0295-find-median-from-data-stream) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/toshikav/DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/toshikav/DSA/tree/master/3318-find-x-sum-of-all-k-long-subarrays-i) |
 ## Design
 |  |
 | ------- |
@@ -356,6 +359,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/toshikav/DSA/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/toshikav/DSA/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3258-count-substrings-that-satisfy-k-constraint-i](https://github.com/toshikav/DSA/tree/master/3258-count-substrings-that-satisfy-k-constraint-i) |
+| [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/toshikav/DSA/tree/master/3318-find-x-sum-of-all-k-long-subarrays-i) |
 ## Prefix Sum
 |  |
 | ------- |
