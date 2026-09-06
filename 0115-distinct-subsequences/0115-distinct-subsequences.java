@@ -1,32 +1,21 @@
 class Solution {
     public int numDistinct(String s, String t) {
-        int memo[][] = new int[s.length()][t.length()];
+        int dp[][] = new int[s.length() + 1][t.length() + 1];
 
-        for(int row[] : memo){
-            java.util.Arrays.fill(row, -1);
+        for(int i=0; i<= s.length(); i++){
+            dp[i][t.length()] = 1;
         }
 
-        return recursion(0, 0, s, t, memo);
-    }
+        for (int i=s.length() - 1; i>=0; i--){
+            for (int j=t.length() - 1; j>=0; j--){
+                dp[i][j] = dp[i + 1][j];
 
-    public int recursion(int i, int j, String s, String t, int[][] memo){
-        if (j == t.length()){
-            return 1;
-        }
-        if (i == s.length()){
-            return 0;
-        }
-        if (memo[i][j] != -1){
-            return memo[i][j];
+                if (s.charAt(i) == t.charAt(j)){
+                    dp[i][j] += dp[i+1][j+1];
+                }
+            }
         }
 
-        int take = 0;
-        int notTake = recursion(i+1, j, s, t, memo);
-
-        if (s.charAt(i) == t.charAt(j)){
-            take = recursion(i+1, j+1, s, t, memo);
-        }
-
-        return memo[i][j] = take + notTake;
+        return dp[0][0];
     }
 }
