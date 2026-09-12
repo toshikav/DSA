@@ -4,25 +4,21 @@ class Solution {
         int maxF = 0;
         int maxL = 0;
         int left = 0;
-        
-            for (int right=0; right<s.length(); right++){
+        int right = 0;
 
-                int idx = s.charAt(right) - 'A';
-                freq[idx]++;
+        while (right < s.length()){
+            char ch = s.charAt(right);
+            freq[ch - 'A']++;
 
-                maxF = Math.max(maxF, freq[idx]);
+            maxF = Math.max(maxF, freq[ch - 'A']);
 
-                int windowL = right - left + 1;
-                int replacement = windowL - maxF;
-
-                if (replacement > k){
-                    freq[s.charAt(left) - 'A']--;
-                    left++;
-                }
-               maxL = Math.max(maxL, right - left + 1);
+            if ((right - left + 1) - maxF > k){
+                freq[s.charAt(left) - 'A']--;
+                left++;
             }
-            
-        
+            maxL = Math.max(maxL, (right - left + 1));
+            right++;
+        }
         return maxL;
     }
 }
