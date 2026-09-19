@@ -1,24 +1,35 @@
 class Solution {
     public int subarraysWithKDistinct(int[] nums, int k) {
-        return atMost(nums, k) - atMost(nums, k - 1);
-    }
-    public int atMost(int nums[], int k){
-        int left = 0;
+        HashMap<Integer, Integer> mp1 = new HashMap<>();
+        HashMap<Integer, Integer> mp2 = new HashMap<>();
+
+        int left1 = 0;
+        int left2 = 0;
         int count = 0;
-        Map<Integer, Integer> mp = new HashMap<>();
 
-        for (int right=0; right<nums.length; right++){
-            mp.put(nums[right], mp.getOrDefault(nums[right], 0) + 1);
+        for (int right = 0; right < nums.length; right++) {
+            mp1.put(nums[right], mp1.getOrDefault(nums[right], 0) + 1);
 
-            while (mp.size() > k){
-                 mp.put(nums[left], mp.get(nums[left]) - 1);
+            while (mp1.size() > k) {
+                mp1.put(nums[left1], mp1.get(nums[left1]) - 1);
 
-                if (mp.get(nums[left]) == 0){
-                    mp.remove(nums[left]);
+                if (mp1.get(nums[left1]) == 0) {
+                    mp1.remove(nums[left1]);
                 }
-                left++;
+                left1++;
             }
-            count += right - left + 1;
+
+            mp2.put(nums[right], mp2.getOrDefault(nums[right], 0) + 1);
+
+            while (mp2.size() > k - 1) {
+                mp2.put(nums[left2], mp2.get(nums[left2]) - 1);
+
+                if (mp2.get(nums[left2]) == 0) {
+                    mp2.remove(nums[left2]);
+                }
+                left2++;
+            }
+            count += left2 - left1;
         }
         return count;
     }
