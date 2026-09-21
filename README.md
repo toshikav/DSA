@@ -219,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3345-smallest-divisible-digit-product-i](https://github.com/toshikav/DSA/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3483-unique-3-digit-even-numbers](https://github.com/toshikav/DSA/tree/master/3483-unique-3-digit-even-numbers) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/toshikav/DSA/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
+| [4043-count-rotations-with-exactly-k-equal-adjacent-pairs](https://github.com/toshikav/DSA/tree/master/4043-count-rotations-with-exactly-k-equal-adjacent-pairs) |
 ## Math
 |  |
 | ------- |
@@ -283,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3498-reverse-degree-of-a-string](https://github.com/toshikav/DSA/tree/master/3498-reverse-degree-of-a-string) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/toshikav/DSA/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/toshikav/DSA/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
+| [4043-count-rotations-with-exactly-k-equal-adjacent-pairs](https://github.com/toshikav/DSA/tree/master/4043-count-rotations-with-exactly-k-equal-adjacent-pairs) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -414,6 +416,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/toshikav/DSA/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3258-count-substrings-that-satisfy-k-constraint-i](https://github.com/toshikav/DSA/tree/master/3258-count-substrings-that-satisfy-k-constraint-i) |
 | [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/toshikav/DSA/tree/master/3318-find-x-sum-of-all-k-long-subarrays-i) |
+| [4043-count-rotations-with-exactly-k-equal-adjacent-pairs](https://github.com/toshikav/DSA/tree/master/4043-count-rotations-with-exactly-k-equal-adjacent-pairs) |
 ## Prefix Sum
 |  |
 | ------- |
