@@ -3,29 +3,31 @@ class Solution {
         Stack<Integer> stk = new Stack<>();
 
         for (int a : asteroids){
-            if (a > 0){
-                stk.push(a);
-            }
-            else{
-                while (!stk.isEmpty() && stk.peek() > 0 && stk.peek() < -a){
-                    stk.pop();
+            boolean alive = true;
+           
+           
+                while (!stk.isEmpty() && a < 0 && stk.peek() > 0){
+                    if (stk.peek() < -a){
+                        stk.pop();
+                        continue;
+                    }
+                    else if (stk.peek() == -a){
+                        stk.pop();
+                    }
+                    alive = false;
+                    break;
                 }
 
-                if (stk.isEmpty() || stk.peek() < 0){
+                if (alive){
                     stk.push(a);
                 }
-
-                if (stk.peek() == -a){
-                    stk.pop();
-                }
-            }
         }
+
         int ans[] = new int[stk.size()];
-        int i = stk.size() - 1;
 
-        while (!stk.isEmpty()){
-            ans[i--] = stk.pop();
-        }
+       for (int i=stk.size() - 1; i>=0; --i){
+        ans[i] = stk.pop();
+       }
 
         return ans;
     }
