@@ -5,18 +5,13 @@ class Solution {
        int sum = 0;
        int max = -1;
 
-       for (int num : nums){
-        total += num;
-       }
-
+       for (int num : nums)  total += num;
+    
        int target = total - x;
 
-       if (target < 0){
-        return -1;
-       }
-       if (target == 0){
-        return nums.length;
-       }
+       if (target < 0) return -1; 
+       if (target == 0) return nums.length;
+       
 
        for (int right=0; right<nums.length; right++){
         sum += nums[right];
