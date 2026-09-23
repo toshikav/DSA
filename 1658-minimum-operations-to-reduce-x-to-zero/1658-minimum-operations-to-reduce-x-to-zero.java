@@ -14,13 +14,15 @@ class Solution {
        if (target < 0){
         return -1;
        }
+       if (target == 0){
+        return nums.length;
+       }
 
        for (int right=0; right<nums.length; right++){
         sum += nums[right];
 
         while (sum > target && left <= right){
-            sum -= nums[left];
-            left++;
+            sum -= nums[left++];
         }
 
         if (sum == target){
@@ -28,9 +30,6 @@ class Solution {
         }
        }
 
-       if (max == -1){
-        return -1;
-       }
-       return nums.length - max;
+      return max == -1 ? -1 : nums.length - max;
     }
 }
