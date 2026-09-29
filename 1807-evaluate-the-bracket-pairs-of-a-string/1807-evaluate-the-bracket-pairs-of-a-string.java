@@ -4,23 +4,19 @@ class Solution {
         StringBuilder ans = new StringBuilder();
 
         for (List<String> pair : knowledge){
-            String key = pair.get(0);
-            String value = pair.get(1);
-
-            mp.put(key, value);
+            mp.put(pair.get(0), pair.get(1));
         }
 
         for (int i=0; i<s.length(); i++){
-            if (s.charAt(i) != '('){
-                ans.append(s.charAt(i));
+            if (s.charAt(i) == '('){
+                
+                int j = s.indexOf(')', i+1);
+                ans.append(mp.getOrDefault(s.substring(i+1, j), "?"));
+                i = j;
             }
 
             else{
-                int j = s.indexOf(')', i);
-                String key = s.substring(i + 1, j);
-                String value = mp.getOrDefault(key, "?");
-                ans.append(value);
-                i = j;
+                ans.append(s.charAt(i));
             }
         }
         return ans.toString();
