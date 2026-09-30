@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0057-insert-interval](https://github.com/toshikav/DSA/tree/master/0057-insert-interval) |
 | [0078-subsets](https://github.com/toshikav/DSA/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/toshikav/DSA/tree/master/0090-subsets-ii) |
+| [0204-count-primes](https://github.com/toshikav/DSA/tree/master/0204-count-primes) |
 | [0410-split-array-largest-sum](https://github.com/toshikav/DSA/tree/master/0410-split-array-largest-sum) |
 | [0496-next-greater-element-i](https://github.com/toshikav/DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/toshikav/DSA/tree/master/0503-next-greater-element-ii) |
@@ -226,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/toshikav/DSA/tree/master/0204-count-primes) |
 | [1291-sequential-digits](https://github.com/toshikav/DSA/tree/master/1291-sequential-digits) |
 | [1566-detect-pattern-of-length-m-repeated-k-or-more-times](https://github.com/toshikav/DSA/tree/master/1566-detect-pattern-of-length-m-repeated-k-or-more-times) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/toshikav/DSA/tree/master/3345-smallest-divisible-digit-product-i) |
@@ -235,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/toshikav/DSA/tree/master/0204-count-primes) |
 | [0507-perfect-number](https://github.com/toshikav/DSA/tree/master/0507-perfect-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/toshikav/DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [0836-rectangle-overlap](https://github.com/toshikav/DSA/tree/master/0836-rectangle-overlap) |
@@ -258,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/toshikav/DSA/tree/master/0204-count-primes) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/toshikav/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/toshikav/DSA/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/toshikav/DSA/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -494,4 +498,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/toshikav/DSA/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/toshikav/DSA/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+## Primality Test
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/toshikav/DSA/tree/master/0204-count-primes) |
+## Sieve Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/toshikav/DSA/tree/master/0204-count-primes) |
+## Prime Number Sieve
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/toshikav/DSA/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
