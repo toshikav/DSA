@@ -3,7 +3,7 @@ class Solution {
         Arrays.sort(nums);
         long sum = 0;
         int left = 0;
-        int max = 0;
+        long max = 0;
         int right = 0;
         
 
@@ -14,7 +14,7 @@ class Solution {
             sum -= nums[left];
             left++;
         }
-        max = Math.max(max, right - left + 1);
+        max = Math.max(max, right - left + 1L);
         right++;
         
        }
