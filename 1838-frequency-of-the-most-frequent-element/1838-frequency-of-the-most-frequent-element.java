@@ -4,20 +4,20 @@ class Solution {
         long sum = 0;
         int left = 0;
         int max = 0;
+        int right = 0;
         
 
-        for (int right = 0; right < nums.length; right++){
-            sum += nums[right];
-            long cost = (long) nums[right] * (right - left + 1) - sum;
+       while (right < nums.length){
+        sum += nums[right];
 
-            while (cost > k){
-                sum -= nums[left];
-                left++;
-
-                cost = (long) nums[right] * (right - left + 1) - sum;
-            }
-            max = Math.max(max, right - left + 1);
+        while (nums[right] * (right - left + 1L) > sum + k){
+            sum -= nums[left];
+            left++;
         }
-        return max;
+        max = Math.max(max, right - left + 1);
+        right++;
+        
+       }
+       return (int) max;
     }
 }
