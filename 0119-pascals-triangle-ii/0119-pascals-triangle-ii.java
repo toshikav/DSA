@@ -1,15 +1,18 @@
 class Solution {
     public List<Integer> getRow(int rowIndex) {
-        long x = 1;
-        ArrayList<Integer> list = new ArrayList<>();
-        list.add((int) x);
+        List<Integer> row = new ArrayList<>();
+        row.add(1);
 
         for (int i=0; i<rowIndex; i++){
-            x *= (rowIndex - i);
-            x /= (i + 1);
-            list.add((int)x);
-        }
+            List<Integer> newRow = new ArrayList<>();
+            newRow.add(1);
 
-        return list;        
+            for (int j=1; j<row.size(); j++){
+                newRow.add(row.get(j - 1) + row.get(j));
+            }
+            newRow.add(1);
+            row = newRow;
+        }
+        return row;        
     }
 }
