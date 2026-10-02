@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0057-insert-interval](https://github.com/toshikav/DSA/tree/master/0057-insert-interval) |
 | [0078-subsets](https://github.com/toshikav/DSA/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/toshikav/DSA/tree/master/0090-subsets-ii) |
+| [0119-pascals-triangle-ii](https://github.com/toshikav/DSA/tree/master/0119-pascals-triangle-ii) |
 | [0204-count-primes](https://github.com/toshikav/DSA/tree/master/0204-count-primes) |
 | [0410-split-array-largest-sum](https://github.com/toshikav/DSA/tree/master/0410-split-array-largest-sum) |
 | [0496-next-greater-element-i](https://github.com/toshikav/DSA/tree/master/0496-next-greater-element-i) |
@@ -321,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/toshikav/DSA/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/toshikav/DSA/tree/master/0042-trapping-rain-water) |
 | [0115-distinct-subsequences](https://github.com/toshikav/DSA/tree/master/0115-distinct-subsequences) |
+| [0119-pascals-triangle-ii](https://github.com/toshikav/DSA/tree/master/0119-pascals-triangle-ii) |
 | [0131-palindrome-partitioning](https://github.com/toshikav/DSA/tree/master/0131-palindrome-partitioning) |
 | [0410-split-array-largest-sum](https://github.com/toshikav/DSA/tree/master/0410-split-array-largest-sum) |
 | [0877-stone-game](https://github.com/toshikav/DSA/tree/master/0877-stone-game) |
