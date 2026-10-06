@@ -10,8 +10,7 @@ class Solution {
                 count--;
             }
             else{
-                stk[count] = c;
-                count++;
+                stk[count++] = c;
             }
         }
         return count;
