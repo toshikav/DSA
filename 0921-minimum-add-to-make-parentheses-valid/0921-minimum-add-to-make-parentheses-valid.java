@@ -1,20 +1,19 @@
 class Solution {
     public int minAddToMakeValid(String s) {
-        int open = 0;
+        char[] stk = new char[s.length()];
         int count = 0;
 
-        for (char c : s.toCharArray()){
-            if (c == '('){
-                open++;
-            }else{
-                if(open > 0){
-                    open--;
+        for (int i=0; i<s.length(); i++){
+            char c = s.charAt(i);
 
-                }else{
-                    count++;
-                }     
+            if (c == ')' && count > 0 && stk[count - 1] == '('){
+                count--;
+            }
+            else{
+                stk[count] = c;
+                count++;
             }
         }
-        return count + open;
+        return count;
     }
 }
