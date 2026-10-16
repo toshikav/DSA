@@ -3,11 +3,18 @@ class Solution {
         if (matrix == null || matrix.length < 1 || matrix[0].length < 1){
             return false;
         }
-        for (int i=0; i<matrix.length; i++){
-            for (int j=0; j<matrix[i].length; j++){
-                if (matrix[i][j] == target){
-                    return true;
-                }
+        int col = matrix[0].length - 1;
+        int row = 0;
+
+        while (col >= 0 && row <= matrix.length-1){
+            if (target == matrix[row][col]){
+                return true;
+            }
+            else if (target < matrix[row][col]){
+                col--;
+            }
+            else if (target > matrix[row][col]){
+                row++;
             }
         }
         return false;
