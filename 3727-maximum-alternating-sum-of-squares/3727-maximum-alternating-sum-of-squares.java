@@ -1,22 +1,19 @@
 class Solution {
     public long maxAlternatingSum(int[] nums) {
-        long square[] = new long[nums.length];
 
         for (int i=0; i<nums.length; i++){
-            square[i] = (long) nums[i] * nums[i];
+            nums[i] *= nums[i];
         }
 
-        Arrays.sort(square);
+        Arrays.sort(nums);
         long ans = 0;
-        int positive = (nums.length + 1) / 2;
 
-        for (int i=0; i<nums.length; i++){
-            if (i < positive){
-                ans += square[nums.length - 1 - i];
-            }
-            else {
-                ans -= square[nums.length - 1 - i];
-            }
+        for (int i=0; i<nums.length / 2; i++){
+            ans -= nums[i];
+        }
+
+        for (int i=nums.length/2; i<nums.length; i++){
+            ans += nums[i];
         }
 
         return ans;
