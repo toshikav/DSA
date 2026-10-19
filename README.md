@@ -145,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1838-frequency-of-the-most-frequent-element](https://github.com/toshikav/DSA/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/toshikav/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/toshikav/DSA/tree/master/2029-stone-game-ix) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/toshikav/DSA/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/toshikav/DSA/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2289-steps-to-make-array-non-decreasing](https://github.com/toshikav/DSA/tree/master/2289-steps-to-make-array-non-decreasing) |
 | [2778-sum-of-squares-of-special-elements](https://github.com/toshikav/DSA/tree/master/2778-sum-of-squares-of-special-elements) |
@@ -230,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/toshikav/DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/toshikav/DSA/tree/master/1636-sort-array-by-increasing-frequency) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/toshikav/DSA/tree/master/1838-frequency-of-the-most-frequent-element) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/toshikav/DSA/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/toshikav/DSA/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/toshikav/DSA/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/toshikav/DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
@@ -415,6 +417,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/toshikav/DSA/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/toshikav/DSA/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/toshikav/DSA/tree/master/1838-frequency-of-the-most-frequent-element) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/toshikav/DSA/tree/master/2089-find-target-indices-after-sorting-array) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
