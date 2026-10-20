@@ -190,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/toshikav/DSA/tree/master/0001-two-sum) |
+| [0076-minimum-window-substring](https://github.com/toshikav/DSA/tree/master/0076-minimum-window-substring) |
 | [0424-longest-repeating-character-replacement](https://github.com/toshikav/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/toshikav/DSA/tree/master/0496-next-greater-element-i) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/toshikav/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -322,6 +323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/toshikav/DSA/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/toshikav/DSA/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/toshikav/DSA/tree/master/0032-longest-valid-parentheses) |
+| [0076-minimum-window-substring](https://github.com/toshikav/DSA/tree/master/0076-minimum-window-substring) |
 | [0115-distinct-subsequences](https://github.com/toshikav/DSA/tree/master/0115-distinct-subsequences) |
 | [0131-palindrome-partitioning](https://github.com/toshikav/DSA/tree/master/0131-palindrome-partitioning) |
 | [0316-remove-duplicate-letters](https://github.com/toshikav/DSA/tree/master/0316-remove-duplicate-letters) |
@@ -477,6 +479,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/toshikav/DSA/tree/master/0076-minimum-window-substring) |
 | [0424-longest-repeating-character-replacement](https://github.com/toshikav/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0904-fruit-into-baskets](https://github.com/toshikav/DSA/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/toshikav/DSA/tree/master/0930-binary-subarrays-with-sum) |
