@@ -33,7 +33,10 @@ class Solution {
                 }
             }
         }
+        if (min == Integer.MAX_VALUE){
+            return new String();
+        }
 
-        return min == Integer.MAX_VALUE ? new String() : new String(arr, idx, min);
+        return  new String(arr, idx, min);
     }
 }
