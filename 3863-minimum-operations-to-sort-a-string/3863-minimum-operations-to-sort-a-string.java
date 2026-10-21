@@ -1,27 +1,39 @@
 class Solution {
     public int minOperations(String s) {
-        char arr[] = s.toCharArray();
-        char sortedArr[] = s.toCharArray();
-        Arrays.sort(sortedArr);
-        String sorted = new String(sortedArr);
+        char min = s.charAt(0);
+        char max = s.charAt(0);
+        boolean sorted = true;
 
-        int n = s.length();
+        for (int i=1; i<s.length(); i++){
+            if (s.charAt(i) < s.charAt(i-1)){
+                sorted = false;
+            }
 
-        if (s.equals(sorted)) return 0;
-        if (n == 2) return -1;
-        if (s.charAt(0) == sorted.charAt(0) || s.charAt(n-1) == sorted.charAt(n-1)) return 1;
-        
-        Arrays.sort(arr, 0, n-1);
-        Arrays.sort(arr, 1, n);
+            if (s.charAt(i) < min){
+                min = s.charAt(i);
+            }
 
-        if (new String(arr).equals(sorted)) return 2;
-        
-        arr = s.toCharArray();
+            if (s.charAt(i) > max){
+                max = s.charAt(i);
+            }
+        }
 
-        Arrays.sort(arr, 1, n);
-        Arrays.sort(arr, 0, n-1);
+        if (sorted){
+            return 0;
+        }
+        if (s.length() == 2){
+            return -1;
+        }
+        if (s.charAt(0) == min || s.charAt(s.length() - 1) == max){
+            return 1;
+        }
 
-        if (new String(arr).equals(sorted)) return 2;
+
+        for (int i=1; i<s.length()-1; i++){
+            if (s.charAt(i) == min || s.charAt(i) == max){
+                return 2;
+            }
+        }
 
         return 3;
     }
