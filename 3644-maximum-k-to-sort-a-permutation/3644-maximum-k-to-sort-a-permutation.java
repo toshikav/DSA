@@ -7,9 +7,7 @@ class Solution {
             k &= nums[i];
            }
         }
-        if (k == -1){
-            return 0;
-        }
-        return k;
+
+        return k == -1 ? 0 : k;
     }
 }
