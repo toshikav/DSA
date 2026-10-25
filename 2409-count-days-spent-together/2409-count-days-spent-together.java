@@ -9,7 +9,11 @@ class Solution {
         int start = Math.max(startA, startB);
         int end = Math.min(endA, endB);
 
-        return start <= end ? end - start + 1 : 0;
+        if (start <= end){
+            return end - start + 1;
+        }
+
+        return 0;
     }
     private int day(String s, int days[]){
         int month = (s.charAt(0) - '0') * 10 + (s.charAt(1) - '0');
