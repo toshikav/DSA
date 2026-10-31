@@ -19,8 +19,7 @@ class Solution {
             }
             stk.push(i);
             res = (res + ans[i]) % MOD;
-        }
-        
+        }    
         return (int) res;
     }
 }
