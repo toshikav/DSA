@@ -4,14 +4,11 @@ class Solution {
         long ans = 0;
 
         for (int num : nums){
-            if (num < min){
-                min = num;
-            }
+            if (num < min) min = num;
         }
 
-        for (int num : nums){
-            ans += num - min;
-        }
+        for (int num : nums) ans += num - min;
+
         return (int) ans;
     }
 }
