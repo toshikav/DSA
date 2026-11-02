@@ -4,9 +4,8 @@ class Solution {
         int mid = nums[nums.length / 2];
         long ans = 0;
 
-        for (int num : nums){
-            ans += Math.abs(num - mid);
-        }
+        for (int num : nums) ans += Math.abs(num - mid);
+
         return (int) ans;
     }
 }
