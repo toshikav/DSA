@@ -30,10 +30,6 @@ class Solution {
             return false;
         }
 
-        if (n1.val == n2.val && mirror(n1.left, n2.right) && mirror(n1.right, n2.left)){
-            return true;
-        }
-
-        return false;
+        return (n1.val == n2.val && mirror(n1.left, n2.right) && mirror(n1.right, n2.left));
     }
 }
