@@ -1,10 +1,6 @@
 class Solution {
     public int[] findPeakGrid(int[][] mat) {
-        int n = mat.length;
-        int m = mat[0].length;
-        int start = 0;
-        int end = m-1;
-        int mid;
+        int n = mat.length, m = mat[0].length, start = 0, end = m-1, mid;
 
         while (start <= end){
             mid = start + (end - start) / 2;
