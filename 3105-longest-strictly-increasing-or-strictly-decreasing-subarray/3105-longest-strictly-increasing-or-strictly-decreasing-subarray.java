@@ -7,13 +7,12 @@ class Solution {
       int max = 1;
 
       for (int i=1; i<nums.length; i++){
-        // for increasing 
         if (nums[i] > nums[i-1]){
             forInc ++;
         } else{
             forInc = 1;
         }
-// decreases
+
       if (nums[i]< nums[i-1]){
         forDec ++;
       }else{
