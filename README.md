@@ -342,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0735-asteroid-collision](https://github.com/toshikav/DSA/tree/master/0735-asteroid-collision) |
 | [1260-shift-2d-grid](https://github.com/toshikav/DSA/tree/master/1260-shift-2d-grid) |
+| [2243-calculate-digit-sum-of-a-string](https://github.com/toshikav/DSA/tree/master/2243-calculate-digit-sum-of-a-string) |
 | [2289-steps-to-make-array-non-decreasing](https://github.com/toshikav/DSA/tree/master/2289-steps-to-make-array-non-decreasing) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/toshikav/DSA/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3498-reverse-degree-of-a-string](https://github.com/toshikav/DSA/tree/master/3498-reverse-degree-of-a-string) |
@@ -370,6 +371,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1927-sum-game](https://github.com/toshikav/DSA/tree/master/1927-sum-game) |
 | [2047-number-of-valid-words-in-a-sentence](https://github.com/toshikav/DSA/tree/master/2047-number-of-valid-words-in-a-sentence) |
 | [2124-check-if-all-as-appears-before-all-bs](https://github.com/toshikav/DSA/tree/master/2124-check-if-all-as-appears-before-all-bs) |
+| [2243-calculate-digit-sum-of-a-string](https://github.com/toshikav/DSA/tree/master/2243-calculate-digit-sum-of-a-string) |
 | [2409-count-days-spent-together](https://github.com/toshikav/DSA/tree/master/2409-count-days-spent-together) |
 | [2423-remove-letter-to-equalize-frequency](https://github.com/toshikav/DSA/tree/master/2423-remove-letter-to-equalize-frequency) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/toshikav/DSA/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
