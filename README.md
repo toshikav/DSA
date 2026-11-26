@@ -307,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2409-count-days-spent-together](https://github.com/toshikav/DSA/tree/master/2409-count-days-spent-together) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/toshikav/DSA/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/toshikav/DSA/tree/master/3345-smallest-divisible-digit-product-i) |
+| [3360-stone-removal-game](https://github.com/toshikav/DSA/tree/master/3360-stone-removal-game) |
 | [3411-maximum-subarray-with-equal-products](https://github.com/toshikav/DSA/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/toshikav/DSA/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3536-maximum-product-of-two-digits](https://github.com/toshikav/DSA/tree/master/3536-maximum-product-of-two-digits) |
@@ -349,6 +350,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2243-calculate-digit-sum-of-a-string](https://github.com/toshikav/DSA/tree/master/2243-calculate-digit-sum-of-a-string) |
 | [2289-steps-to-make-array-non-decreasing](https://github.com/toshikav/DSA/tree/master/2289-steps-to-make-array-non-decreasing) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/toshikav/DSA/tree/master/3069-distribute-elements-into-two-arrays-i) |
+| [3360-stone-removal-game](https://github.com/toshikav/DSA/tree/master/3360-stone-removal-game) |
 | [3498-reverse-degree-of-a-string](https://github.com/toshikav/DSA/tree/master/3498-reverse-degree-of-a-string) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/toshikav/DSA/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## String
