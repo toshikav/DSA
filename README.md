@@ -303,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0836-rectangle-overlap](https://github.com/toshikav/DSA/tree/master/0836-rectangle-overlap) |
 | [0877-stone-game](https://github.com/toshikav/DSA/tree/master/0877-stone-game) |
 | [1248-count-number-of-nice-subarrays](https://github.com/toshikav/DSA/tree/master/1248-count-number-of-nice-subarrays) |
+| [1523-count-odd-numbers-in-an-interval-range](https://github.com/toshikav/DSA/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [1927-sum-game](https://github.com/toshikav/DSA/tree/master/1927-sum-game) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/toshikav/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/toshikav/DSA/tree/master/2029-stone-game-ix) |
